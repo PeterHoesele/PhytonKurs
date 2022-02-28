@@ -7,11 +7,11 @@ while True:
 
     km = input("Kilometers: ")
 
-    km = float(km.replace(",", "."))  # replace comma with dot, if user entered a comma
+    km = float(km.replace(",", "."))
 
     miles = km * 0.621371
 
-    print("{0} kilometers is {1} miles.".format(km, miles))
+    print(km, "kilometers is", miles, "miles.")
 
     choice = input("Would you like to do another conversion (y/n): ")
 
