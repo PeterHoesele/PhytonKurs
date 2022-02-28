@@ -15,7 +15,7 @@ while True:
 
     choice = input("Would you like to do another conversion (y/n): ")
 
-    if choice.lower() != "y" and choice.lower() != "yes":
+    if choice.lower() = "n" and choice.lower() = "no":
         break
 
 
